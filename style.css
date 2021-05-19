@@ -71,7 +71,7 @@ p {
 
 #name {
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 30px;
+    font-size: 40px;
 }
 .menu{
     list-style: none;
@@ -103,4 +103,7 @@ a{
 }
 #videos{
     text-align: center;
+}
+h1{
+    font-size: 35px;
 }
