@@ -72,14 +72,15 @@ p {
     font-size: 40px;
 }
 .menu{
-     margin-top: 0px;
-    font-family: sans-serif;
+    list-style: none;
     position: fixed;
-    top: 0px;
-    width: 100%;
+    top: 15px;
+     right: 25px;
+    z-index: 10;
     cursor: pointer;
-    z-index: 9;
-    background-color: white;
+    text-align: center;
+    background-color: antiquewhite;
+
 }
 #hobby{
 font-family: 'Kaushan Script', cursive;
