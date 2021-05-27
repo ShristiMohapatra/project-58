@@ -55,10 +55,8 @@ p {
 }
 
 .links {
-    float: left;
+    display:inline;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
     font-size: 25px;
@@ -74,12 +72,14 @@ p {
     font-size: 40px;
 }
 .menu{
-    list-style: none;
+     margin-top: 0px;
+    font-family: sans-serif;
     position: fixed;
-    top: 15px;
-    right: 25px;
-    z-index: 10;
+    top: 0px;
+    width: 100%;
     cursor: pointer;
+    z-index: 9;
+    background-color: white;
 }
 #hobby{
 font-family: 'Kaushan Script', cursive;
@@ -91,6 +91,8 @@ html{
 }
 a{
     text-decoration: none;
+    color: aqua;
+    text-shadow: 2px 2px gainsdoro;
 }
 .article:hover{
     color: crimson;
@@ -101,6 +103,33 @@ a{
 #writings{
     text-align: center;
 }
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contact {
+    background: firebrick;
+
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline
+}
+
+.contact_1 a {
+    color: white;
+    
+}
+.contact_1 {
+     text-align: center;
+}
+
 #videos{
     text-align: center;
 }
@@ -109,4 +138,10 @@ a{
 }
 h1{
     font-size: 35px;
+}
+.line{
+    height: 6px;
+    background-color: darkmagenta;
+    width: 110px;
+    margin: 8px auto;
 }
