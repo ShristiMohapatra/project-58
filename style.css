@@ -74,7 +74,7 @@ p {
 }
 
 .menu {
-    
+    text-shadow: red;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -157,6 +157,7 @@ h1 {
     background-color: darkmagenta;
     width: 110px;
     margin: 8px auto;
+    margin-top: -25px;
 }
 
 #bio {
